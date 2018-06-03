@@ -1,0 +1,13 @@
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\bin\Debug\SimpleConnect.exe.config
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\bin\Debug\SimpleConnect.exe
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\bin\Debug\SimpleConnect.pdb
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\bin\Debug\WindowsInput.dll
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\bin\Debug\WindowsInput.xml
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.csprojResolveAssemblyReference.cache
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.Form1.resources
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.Properties.Resources.resources
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.csproj.GenerateResource.cache
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.csproj.CoreCompileInputs.cache
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.csproj.CopyComplete
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.exe
+C:\Users\Dominic\source\repos\SimpleConnect\SimpleConnect\obj\Debug\SimpleConnect.pdb
