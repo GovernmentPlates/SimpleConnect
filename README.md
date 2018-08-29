@@ -1,2 +1,2 @@
 # SimpleConnect
-A simple Cisco AnyConnect client wrapper written in C#
+A simple Cisco AnyConnect automation tool written in C#
