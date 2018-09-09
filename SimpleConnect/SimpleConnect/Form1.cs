@@ -11,6 +11,7 @@ using WindowsInput.Native;
 using WindowsInput;
 using System.Net;
 using System.IO;
+using Microsoft.Win32;
 
 namespace SimpleConnect
 {
@@ -20,6 +21,7 @@ namespace SimpleConnect
 		{
 			InitializeComponent();
 			updateIPDisplay();
+			captivePortalTest();
 		}
 
 		public string btnStateStatus = "awaitingConnection";
@@ -37,9 +39,6 @@ namespace SimpleConnect
 			sim.Keyboard.TextEntry(vpnPassword);
 			sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
 			sim.Keyboard.Sleep(500);
-			sim.Keyboard.TextEntry("y");
-			sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
 		}
 
 		private async void btnConnectVPN_Click(object sender, EventArgs e)
@@ -71,7 +70,6 @@ namespace SimpleConnect
 					btnConnectVPN.Text = "Reconnect";
 					updateIPDisplay();
 					break;
-
 			}
 		}
 
@@ -79,6 +77,16 @@ namespace SimpleConnect
 		{
 			string publicIPv4 = new WebClient().DownloadString("http://icanhazip.com");
 			viewPublicIP.Text = publicIPv4;
+		}
+
+		public void captivePortalTest()
+		{
+			string captiveCheck = new WebClient().DownloadString("http://captive.apple.com");
+
+			if (captiveCheck.Contains("Success") == false)
+			{
+				MessageBox.Show("A captive portal was detected - please authenticate into your network before connecting.", "SimpleConnect", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+			}
 		}
 	}
 }
